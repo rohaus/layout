@@ -1,3 +1,83 @@
 body {
-  /* rules go here */
+  position:relative;
+  margin:0;
+  color:#444;
+}
+form {
+  text-align: center;
+}
+.logo {
+  display:block;
+  margin:auto;
+  margin-top:10%;
+  margin-bottom:20px;
+  height: 95px;
+  width: 269px;
+}
+.searchBox{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:9px;
+  width:541px;
+  height:27px;
+}
+.button{
+  display:inline;
+  padding:7px;
+  border-radius: 2px;
+  border:1px solid #CCCCCC;
+  font-weight:bold;
+  background-color: #EDEDED;
+  color:#444444;
+}
+.bar{
+  background-color:#EEEEEE;
+  height:3em;
+  width:100%;
+}
+.top{
+  background-color:#FFFFFF;
+}
+.bottom{
+  position:fixed;
+  bottom:0;
+  border-top: 1px solid #E4E4E4;
+}
+a{
+  margin-top:10px;
+  float:right;
+  padding:8px;
+  font-family: arial;
+  font-size: 13px;
+  font-style: normal;
+  color: #222222;
+  text-decoration:none;
+}
+a:visited{
+  color: inherit;
+}
+.signIn{
+  margin-top:10px;
+  margin-right: 10px;
+  float:right;
+  background-color:#cd372d;
+  padding: 7px 12px;
+  border: 0;
+  border-radius:2px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+.left{
+  color:#666666;;
+  float:left;
+  padding:10px;
+  margin-left:10px;
+}
+.right{
+  color:#666666;
+  float:right;
+  padding:10px;
+  margin-right:10px;
 }
